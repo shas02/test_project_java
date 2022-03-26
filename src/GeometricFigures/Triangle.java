@@ -14,7 +14,7 @@ public class Triangle extends GeometricFigure {
 
     public Triangle(int a, int b, int c) {
         int perimeter = a+b+c;
-        int area = (int) Math.sqrt((perimeter / 2) * ((perimeter / 2) - a) * ((perimeter / 2) - b) * ((perimeter / 2) - c));
+        int area = (int) Math.sqrt((double)(perimeter / 2) * (double)((perimeter / 2) - a) * ((double)(perimeter / 2) - b) * ((double)(perimeter / 2) - c));
         if (area <= 0) {
             System.out.println("A triangle with such sides cannot exist!");
             return;
@@ -28,7 +28,7 @@ public class Triangle extends GeometricFigure {
 
     public Triangle(int a, int b, int c, String color) {
         int perimeter = a+b+c;
-        int area = (int) Math.sqrt((perimeter / 2) * ((perimeter / 2) - a) * ((perimeter / 2) - b) * ((perimeter / 2) - c));
+        int area = (int) Math.sqrt((double)(perimeter / 2) * (double)((perimeter / 2) - a) * ((double)(perimeter / 2) - b) * ((double)(perimeter / 2) - c));
         if (area <= 0) {
             System.out.println("A triangle with such sides cannot exist!");
             return;

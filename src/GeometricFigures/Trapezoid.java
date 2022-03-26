@@ -21,7 +21,7 @@ public class Trapezoid extends GeometricFigure {
         this.d = d;
         this.h = h;
         this.perimeter = a+b+c+d;
-        this.area = ((a + b) * h) / 2;
+        this.area = (double)((a + b) * h) / 2;
     }
 
     public Trapezoid(int a, int b, int c, int d, int h, String color) {
@@ -31,7 +31,7 @@ public class Trapezoid extends GeometricFigure {
         this.d = d;
         this.h = h;
         this.perimeter = a+b+c+d;
-        this.area = ((a + b) * h) / 2;
+        this.area = (double)((a + b) * h) / 2;
         this.color = color;
     }
 

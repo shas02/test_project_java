@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        RandomFiguresGenerator figures1 = new RandomFiguresGenerator(15);
+        RandomFiguresGenerator figures1 = new RandomFiguresGenerator(100);
 
         System.out.println(Arrays.toString(figures1.getRandomGeometricFigures()));
 

@@ -22,19 +22,19 @@ public class RandomFiguresGenerator {
         for (int i = 0; i < array.length; i++) {
 
             if (array[i] == 0) {
-            arrayOfFigures[i] = new Circle((int)(Math.random() * (100 - 1) - 1) + 1);
+            arrayOfFigures[i] = new Circle((int)(Math.random() * (100 - 50)) + 50);
             }
 
             if (array[i] == 1) {
-                arrayOfFigures[i] = new Square((int)(Math.random() * (100 - 1) - 1) + 1);
+                arrayOfFigures[i] = new Square((int)(Math.random() * (100 - 50)) + 50);
             }
 
             if (array[i] == 2) {
-                arrayOfFigures[i] = new Trapezoid((int)(Math.random() * (100 - 1) - 1) + 1, (int)(Math.random() * (100 - 1) - 1) + 1, (int)(Math.random() * (100 - 1) - 1) + 1, (int)(Math.random() * (100 - 1) - 1) + 1, (int)(Math.random() * (100 - 1) - 1) + 1);
+                arrayOfFigures[i] = new Trapezoid((int)(Math.random() * (100 - 50)) + 50, (int)(Math.random() * (100 - 50)) + 50, (int)(Math.random() * (100 - 50)) + 50, (int)(Math.random() * (100 - 50)) + 50, (int)(Math.random() * (100 - 50)) + 50);
             }
 
             if (array[i] == 3) {
-                arrayOfFigures[i] = new Triangle((int) ((Math.random() * (100 - 1) - 1) + 1), (int) ((Math.random() * (100 - 1) - 1) + 1), (int) ((Math.random() * (100 - 1) - 1) + 1));
+                arrayOfFigures[i] = new Triangle( (int)(Math.random() * (100 - 50)) + 50, (int)(Math.random() * (100 - 50)) + 50, (int)(Math.random() * (100 - 50)) + 50);
             }
         }
 
